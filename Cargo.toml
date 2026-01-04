@@ -24,6 +24,7 @@ pulsar_std = { git = "https://github.com/Far-Beyond-Pulsar/Pulsar-Native", rev =
 # Utilities
 uuid = { version = "1.0", features = ["v4", "serde"] }
 log = "0.4"
+tracing = "0.1"
 
 # Serialization
 serde = { version = "1.0", features = ["derive"] }
